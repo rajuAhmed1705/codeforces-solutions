@@ -16,12 +16,7 @@ int main()
         s = x / 5;
     }
 
-    if (x % 5 == 0)
-    {
-        cout << s << endl;
-    }
-    else
-        cout << s + 1 << endl;
+    cout << s + 1 << endl;
 
     return 0;
 }
